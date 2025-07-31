@@ -1,0 +1,6 @@
+cat	4	1	1
+dog	1	4	1
+dof	0	0	0
+dpg	0	0	0
+rabbit	0	0	0
+¡¹à	0	0	0
