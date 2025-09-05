@@ -1,6 +1,49 @@
-# XO Game (Client-Server using Socket)
-โปรเจกต์เกม XO แบบผลัดเทิร์น (Turn-based) เขียนด้วยภาษา Python โดยใช้ socket ในการเชื่อมต่อ client กับ server
-สามารถเล่นได้ 2 คน ผ่านคำสั่งใน terminal
+# Socket XO 🎮
 
-A simple turn-based XO (Tic Tac Toe) game implemented in Python using socket programming.
-This project consists of a server and two clients that take turns to play the game via TCP connection.
+A real-time multiplayer XO (Tic-Tac-Toe) game built with Python using sockets.
+Players connect to the server, take turns, and see the board update live in the terminal.
+
+## 🚀 Features
+
+- Multiplayer Tic-Tac-Toe (2 players)
+- Real-time updates from server
+- Turn-based gameplay
+- Win/Lose/Draw score tracking
+- Simple terminal interface
+
+## 🛠️ Built With
+
+- Python 3
+- Socket Programming (TCP)
+- Select (for handling multiple clients)
+
+## 🏃‍♂️ Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone [repo-url]
+   ```
+
+2. Start the server:
+   ```bash
+   python server.py
+   ```
+
+3. Open another terminal and run the client (do this twice for 2 players):
+   ```bash
+   python client.py
+   ```
+
+4. Enter moves as:
+  ```bash
+   row col
+   ```
+
+## 📁 Project Structure
+
+```
+SocketXO/
+├── client.py      # Client-side: connects to server, sends moves, shows board
+├── server.py      # Server-side: manages game logic, turns, scores
+├── README.md      # Documentation
+```
