@@ -21,7 +21,7 @@ Players connect to the server, take turns, and see the board update live in the 
 
 1. Clone the repository:
    ```bash
-   git clone [repo-url]
+   git clone https://github.com/NaphatTor/XOgame.git
    ```
 
 2. Start the server:
