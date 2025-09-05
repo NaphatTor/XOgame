@@ -35,7 +35,7 @@ Players connect to the server, take turns, and see the board update live in the 
    ```
 
 4. Enter moves as:
-  ```bash
+   ```bash
    row col
    ```
 
